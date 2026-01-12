@@ -1,0 +1,50 @@
+/* common css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+}
+
+.display-flex{
+  display: flex;
+}
+.dark_1{
+  color: #131313;
+}
+
+.dark_2{
+  color: #727272;
+}
+
+.bg_color{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* ============= */
+
+/* navbar css */
+.brand{
+  font-size: 45px;
+}
+.navbar{
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  align-items: center;
+  padding: 50px 0;
+}
+.menu-container{
+  list-style: none;
+
+}
+.menu-links{
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* =========== */
