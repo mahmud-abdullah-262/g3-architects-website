@@ -147,7 +147,7 @@ main > section{
   margin-top: 100px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 0 50px;
+  
   
 }
 
@@ -186,12 +186,24 @@ main > section{
 .sponsor-logo{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  padding: 50px;
+ 
 }
 .sponsor-logo img{
   filter: grayscale(100%);
 }
 
+
+/* footer */
+footer{
+  padding: 20px;
+  text-align: center;
+  max-width: 1440px;
+  width: 100%;
+  margin: 130px auto;
+}
+footer p{
+  width: 100%;
+}
 /* media query small size screen */
 
 @media screen and (max-width:576px) {
