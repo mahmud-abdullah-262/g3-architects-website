@@ -45,6 +45,8 @@ main > section{
   max-width: 1440px;
   margin:130px auto 0 ;
 }
+
+
 /* ============= */
 
 /* navbar css */
@@ -127,6 +129,33 @@ main > section{
 .features-title .p2{
   color: #FF900E;
 }
+
+
+
+/* Fact section style */
+.fact-section-title{
+  font-size: 3rem;
+}
+
+.fact-description{
+  line-height: 1.5rem;
+  width: 540px;
+}
+
+.fact-container{
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.fact-card{
+  width: 240px;
+  height: 240px;
+  border: 1px solid #FF900E;
+  border-radius: 8px;
+  text-align: center;
+}
+
 /* media query small size screen */
 
 @media screen and (max-width:576px) {
