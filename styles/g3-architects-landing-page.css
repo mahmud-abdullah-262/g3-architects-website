@@ -69,7 +69,7 @@ main > section{
 .menu-links{
   text-decoration: none;
   margin-left: 30px;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
@@ -131,6 +131,53 @@ main > section{
   color: #FF900E;
 }
 
+
+
+/* experience section styele */
+
+.experience-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 140px;
+}
+
+.experience-section-heading{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+.experience-container p{
+  line-height: 26px;
+}
+.experience-section-heading-container{
+  margin-bottom: 80px;
+}
+
+.experience-card{
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+}
+.big-experience{
+  font-size: 4.25rem;
+  line-height: 70px;
+}
+.small-experience{
+  font-size: 1.5rem;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.experience-btn{
+  padding: 45px;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+.experience-image{
+  width: 100%;
+}
 
 
 /* Fact section style */
@@ -213,7 +260,7 @@ footer p{
     flex-direction: column;
    }
 
-   .ourteam, .fact-container{
+   .ourteam, .fact-container, .experience-container{
     grid-template-columns: repeat(1, 1fr);
     
    }
@@ -234,7 +281,11 @@ footer p{
   justify-items: center;
   gap: 30px;
   max-width: 1440px;
-  
+}
+
+.experience-btn{
+  padding: 10px;
+  margin: 20px 0 0px 20px;
 }
 }
 
